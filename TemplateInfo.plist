@@ -5,6 +5,7 @@
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
 	<string>File</string>
