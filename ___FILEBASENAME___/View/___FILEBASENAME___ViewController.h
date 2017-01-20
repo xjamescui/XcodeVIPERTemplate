@@ -1,4 +1,4 @@
-//
+ //
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "___FILEBASENAMEASIDENTIFIER___PresenterIO.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ViewController : UIViewController <___FILEBASENAMEASIDENTIFIER___PresenterOutputDelegate>
+@interface ___FILEBASENAMEASIDENTIFIER___ViewController : UIViewController
 @property (nonatomic) id<___FILEBASENAMEASIDENTIFIER___PresenterInputDelegate> presenter;
 @end

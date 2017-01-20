@@ -26,6 +26,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-# pragma mark - ___FILEBASENAMEASIDENTIFIER___PresenterOutputDelegate methods
-
 @end

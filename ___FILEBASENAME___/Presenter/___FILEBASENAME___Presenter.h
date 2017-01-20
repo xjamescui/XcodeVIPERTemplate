@@ -1,4 +1,4 @@
-//
+ //
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
@@ -13,8 +13,7 @@
 
 @class ___FILEBASENAMEASIDENTIFIER___Wireframe;
 
-@interface ___FILEBASENAMEASIDENTIFIER___Presenter : NSObject <___FILEBASENAMEASIDENTIFIER___ModuleInputDelegate, ___FILEBASENAMEASIDENTIFIER___PresenterInputDelegate, ___FILEBASENAMEASIDENTIFIER___InteractorOutputDelegate>
-
+@interface ___FILEBASENAMEASIDENTIFIER___Presenter : NSObject
 @property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___PresenterOutputDelegate> view;
 @property (nonatomic) id<___FILEBASENAMEASIDENTIFIER___InteractorInputDelegate> interactor;
 @property (nonatomic) ___FILEBASENAMEASIDENTIFIER___Wireframe *wireframe;

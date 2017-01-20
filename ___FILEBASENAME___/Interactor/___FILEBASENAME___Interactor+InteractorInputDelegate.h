@@ -8,5 +8,5 @@
 
 #import "___FILEBASENAMEASIDENTIFIER___Interactor.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___Interactor
+@interface ___FILEBASENAMEASIDENTIFIER___Interactor (InteractorInputDelegate) <___FILEBASENAMEASIDENTIFIER___InteractorInputDelegate>
 @end

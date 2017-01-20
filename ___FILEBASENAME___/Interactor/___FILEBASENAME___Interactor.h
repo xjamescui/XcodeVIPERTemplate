@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "___FILEBASENAMEASIDENTIFIER___InteractorIO.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___Interactor : NSObject < ___FILEBASENAMEASIDENTIFIER___InteractorInputDelegate>
-
+@interface ___FILEBASENAMEASIDENTIFIER___Interactor : NSObject
 @property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___InteractorOutputDelegate> presenter;
 @end

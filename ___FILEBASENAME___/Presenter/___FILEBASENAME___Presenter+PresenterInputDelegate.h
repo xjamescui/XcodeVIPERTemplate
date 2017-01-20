@@ -8,5 +8,6 @@
 
 #import "___FILEBASENAMEASIDENTIFIER___Presenter.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___Presenter
+@interface ___FILEBASENAMEASIDENTIFIER___Presenter (PresenterInputDelegate) <___FILEBASENAMEASIDENTIFIER___PresenterInputDelegate>
+
 @end

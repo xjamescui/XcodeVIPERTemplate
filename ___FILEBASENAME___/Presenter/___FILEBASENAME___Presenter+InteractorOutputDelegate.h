@@ -8,5 +8,5 @@
 
 #import "___FILEBASENAMEASIDENTIFIER___Presenter.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___Presenter
+@interface ___FILEBASENAMEASIDENTIFIER___Presenter (InteractorOutputDelegate) <___FILEBASENAMEASIDENTIFIER___InteractorOutputDelegate>
 @end
