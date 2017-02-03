@@ -8,10 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@class UIWindow;
+@class ___FILEBASENAMEASIDENTIFIER___ViewController;
 
 @interface ___FILEBASENAMEASIDENTIFIER___Wireframe : NSObject
 
-+ (void)presentInWindow:(UIWindow *)window;
+/**
+ Assembles the VIPER module, returning the top layer (view) of the module
+
+ @return the view
+ */
++ (___FILEBASENAMEASIDENTIFIER___ViewController *)module;
 
 @end

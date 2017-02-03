@@ -10,10 +10,4 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___Router
 
-//- (void)presentAnotherView
-//{
-//  // init another presenter and present its view.
-//}
-
-
 @end
