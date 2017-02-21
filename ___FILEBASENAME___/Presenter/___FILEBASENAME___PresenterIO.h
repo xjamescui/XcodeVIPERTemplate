@@ -8,8 +8,10 @@
 #ifndef ___FILEBASENAMEASIDENTIFIER___PresenterIO_h
 #define ___FILEBASENAMEASIDENTIFIER___PresenterIO_h
 
-@protocol ___FILEBASENAMEASIDENTIFIER___PresenterInputDelegate <NSObject>
+@protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutputDelegate;
 
+@protocol ___FILEBASENAMEASIDENTIFIER___PresenterInputDelegate <NSObject>
+@property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___PresenterOutputDelegate> view;
 @end
 
 

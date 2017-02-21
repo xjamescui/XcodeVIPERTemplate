@@ -6,7 +6,7 @@
 //___COPYRIGHT___
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @class ___FILEBASENAMEASIDENTIFIER___Presenter;
 

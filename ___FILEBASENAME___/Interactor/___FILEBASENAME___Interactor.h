@@ -6,7 +6,8 @@
 //___COPYRIGHT___
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+
 #import "___FILEBASENAMEASIDENTIFIER___InteractorIO.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___Interactor : NSObject

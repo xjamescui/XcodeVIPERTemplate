@@ -8,8 +8,10 @@
 #ifndef ___FILEBASENAMEASIDENTIFIER___InteractorIO_h
 #define ___FILEBASENAMEASIDENTIFIER___InteractorIO_h
 
-@protocol ___FILEBASENAMEASIDENTIFIER___InteractorInputDelegate <NSObject>
+@protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutputDelegate;
 
+@protocol ___FILEBASENAMEASIDENTIFIER___InteractorInputDelegate <NSObject>
+@property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___InteractorOutputDelegate> presenter;
 @end
 
 

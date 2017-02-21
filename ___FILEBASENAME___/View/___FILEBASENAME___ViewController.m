@@ -7,9 +7,23 @@
 //
 
 #import "___FILEBASENAMEASIDENTIFIER___ViewController.h"
-#import "___FILEBASENAMEASIDENTIFIER___Presenter.h"
+
+#import "___FILEBASENAMEASIDENTIFIER___Presenter+PresenterInputDelegate.h"
+#import "___FILEBASENAMEASIDENTIFIER___Presenter+ModuleInputDelegate.h"
+#import "___FILEBASENAMEASIDENTIFIER___ViewController+PresenterOutputDelegate.h"
 
 @implementation ___FILEBASENAMEASIDENTIFIER___ViewController
+
+# pragma mark - lazy load presenter
+
+- (id<___FILEBASENAMEASIDENTIFIER___PresenterInputDelegate>)presenter
+{
+    if (!_presenter) {
+        _presenter = [[___FILEBASENAMEASIDENTIFIER___Presenter alloc] init];
+        _presenter.view = self;
+    }
+    return _presenter;
+}
 
 # pragma mark - Life Cycle methods
 

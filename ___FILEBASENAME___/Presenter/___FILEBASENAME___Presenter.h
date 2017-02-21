@@ -6,10 +6,10 @@
 //___COPYRIGHT___
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+
 #import "___FILEBASENAMEASIDENTIFIER___InteractorIO.h"
 #import "___FILEBASENAMEASIDENTIFIER___PresenterIO.h"
-#import "___FILEBASENAMEASIDENTIFIER___ModuleEntry.h"
 
 @class ___FILEBASENAMEASIDENTIFIER___Router;
 

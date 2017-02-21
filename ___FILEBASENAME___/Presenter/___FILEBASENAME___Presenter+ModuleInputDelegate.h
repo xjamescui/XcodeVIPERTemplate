@@ -7,6 +7,7 @@
 //
 
 #import "___FILEBASENAMEASIDENTIFIER___Presenter.h"
+#import "___FILEBASENAMEASIDENTIFIER___ModuleEntry.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___Presenter (ModuleInputDelegate) <___FILEBASENAMEASIDENTIFIER___ModuleInputDelegate>
 
